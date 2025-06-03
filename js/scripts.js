@@ -58,13 +58,46 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-('.carousel').carousel({
-  interval: interval: getRandomInterval(4000, 7000)
-   pause: false
+  // Función para obtener intervalo aleatorio
+  function getRandomInterval(min = 4000, max = 7000) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  // Seleccionar todos los carruseles con clase .my-carousel
+  document.querySelectorAll('.my-carousel').forEach((carouselEl) => {
+    const interval = getRandomInterval();
+
+    // Crear la instancia del carrusel con intervalo aleatorio
+    const carouselInstance = new bootstrap.Carousel(carouselEl, {
+      interval: interval,
+      ride: 'carousel',
+      pause: false
+    });
+
+    // Pausar en hover
+    carouselEl.addEventListener('mouseenter', () => {
+      carouselInstance.pause();
+    });
+
+    // Reanudar al salir del hover
+    carouselEl.addEventListener('mouseleave', () => {
+      carouselInstance.cycle();
+    });
+
+    // Cambiar el intervalo cada vez que cambia el slide
+    carouselEl.addEventListener('slide.bs.carousel', () => {
+      carouselInstance._config.interval = getRandomInterval();
+    });
   });
-  carousel.addEventListener('mouseenter', () => {
-    carouselInstance.pause();
+  // Hacer clic en imagen -> mostrar modal con imagen ampliada
+  document.querySelectorAll('.carousel-img').forEach((img) => {
+    img.style.cursor = 'zoom-in'; // opcional: icono de zoom
+
+    img.addEventListener('click', () => {
+      const modalImg = document.getElementById('modalImage');
+      modalImg.src = img.src;
+
+      const imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
+      imageModal.show();
+    });
   });
-  carousel.addEventListener('mouseleave', () => {
-    carouselInstance.cycle();
-})
