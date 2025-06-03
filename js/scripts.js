@@ -58,4 +58,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-('.carousel').carousel()
+('.carousel').carousel({
+  interval: interval: getRandomInterval(4000, 7000)
+})
