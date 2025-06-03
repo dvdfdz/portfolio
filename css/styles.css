@@ -850,7 +850,7 @@ progress {
 
 .g-1,
 .gy-1 {
-  --bs-gutter-y: 0.25rem;
+  --bs-gutter-y: 0.15rem;
 }
 
 .g-2,
@@ -860,7 +860,7 @@ progress {
 
 .g-2,
 .gy-2 {
-  --bs-gutter-y: 0.5rem;
+  --bs-gutter-y: 0.25rem;
 }
 
 .g-3,
@@ -870,7 +870,7 @@ progress {
 
 .g-3,
 .gy-3 {
-  --bs-gutter-y: 1rem;
+  --bs-gutter-y: 0.5rem;
 }
 
 .g-4,
@@ -880,7 +880,7 @@ progress {
 
 .g-4,
 .gy-4 {
-  --bs-gutter-y: 1.5rem;
+  --bs-gutter-y: 0.75rem;
 }
 
 .g-5,
@@ -890,7 +890,7 @@ progress {
 
 .g-5,
 .gy-5 {
-  --bs-gutter-y: 3rem;
+  --bs-gutter-y: 2rem;
 }
 
 @media (min-width: 576px) {
@@ -1027,7 +1027,7 @@ progress {
   }
   .g-sm-1,
   .gy-sm-1 {
-    --bs-gutter-y: 0.25rem;
+    --bs-gutter-y: 0.15rem;
   }
   .g-sm-2,
   .gx-sm-2 {
@@ -1035,7 +1035,7 @@ progress {
   }
   .g-sm-2,
   .gy-sm-2 {
-    --bs-gutter-y: 0.5rem;
+    --bs-gutter-y: 0.25rem;
   }
   .g-sm-3,
   .gx-sm-3 {
@@ -1043,7 +1043,7 @@ progress {
   }
   .g-sm-3,
   .gy-sm-3 {
-    --bs-gutter-y: 1rem;
+    --bs-gutter-y: 0.5rem;
   }
   .g-sm-4,
   .gx-sm-4 {
@@ -1051,7 +1051,7 @@ progress {
   }
   .g-sm-4,
   .gy-sm-4 {
-    --bs-gutter-y: 1.5rem;
+    --bs-gutter-y: 0.75rem;
   }
   .g-sm-5,
   .gx-sm-5 {
@@ -1059,7 +1059,7 @@ progress {
   }
   .g-sm-5,
   .gy-sm-5 {
-    --bs-gutter-y: 3rem;
+    --bs-gutter-y: 2rem;
   }
 }
 @media (min-width: 768px) {
@@ -1196,7 +1196,7 @@ progress {
   }
   .g-md-1,
   .gy-md-1 {
-    --bs-gutter-y: 0.25rem;
+    --bs-gutter-y: 0.15rem;
   }
   .g-md-2,
   .gx-md-2 {
@@ -1204,7 +1204,7 @@ progress {
   }
   .g-md-2,
   .gy-md-2 {
-    --bs-gutter-y: 0.5rem;
+    --bs-gutter-y: 0.25rem;
   }
   .g-md-3,
   .gx-md-3 {
@@ -1212,7 +1212,7 @@ progress {
   }
   .g-md-3,
   .gy-md-3 {
-    --bs-gutter-y: 1rem;
+    --bs-gutter-y: 0.5rem;
   }
   .g-md-4,
   .gx-md-4 {
@@ -1220,7 +1220,7 @@ progress {
   }
   .g-md-4,
   .gy-md-4 {
-    --bs-gutter-y: 1.5rem;
+    --bs-gutter-y: 0.75rem;
   }
   .g-md-5,
   .gx-md-5 {
@@ -1228,7 +1228,7 @@ progress {
   }
   .g-md-5,
   .gy-md-5 {
-    --bs-gutter-y: 3rem;
+    --bs-gutter-y: 2rem;
   }
 }
 @media (min-width: 992px) {
@@ -1365,7 +1365,7 @@ progress {
   }
   .g-lg-1,
   .gy-lg-1 {
-    --bs-gutter-y: 0.25rem;
+    --bs-gutter-y: 0.15rem;
   }
   .g-lg-2,
   .gx-lg-2 {
@@ -1373,7 +1373,7 @@ progress {
   }
   .g-lg-2,
   .gy-lg-2 {
-    --bs-gutter-y: 0.5rem;
+    --bs-gutter-y: 0.25rem;
   }
   .g-lg-3,
   .gx-lg-3 {
@@ -1381,7 +1381,7 @@ progress {
   }
   .g-lg-3,
   .gy-lg-3 {
-    --bs-gutter-y: 1rem;
+    --bs-gutter-y: 0.5rem;
   }
   .g-lg-4,
   .gx-lg-4 {
@@ -1389,7 +1389,7 @@ progress {
   }
   .g-lg-4,
   .gy-lg-4 {
-    --bs-gutter-y: 1.5rem;
+    --bs-gutter-y: 0.75rem;
   }
   .g-lg-5,
   .gx-lg-5 {
@@ -1534,7 +1534,7 @@ progress {
   }
   .g-xl-1,
   .gy-xl-1 {
-    --bs-gutter-y: 0.25rem;
+    --bs-gutter-y: 0.15rem;
   }
   .g-xl-2,
   .gx-xl-2 {
@@ -1542,7 +1542,7 @@ progress {
   }
   .g-xl-2,
   .gy-xl-2 {
-    --bs-gutter-y: 0.5rem;
+    --bs-gutter-y: 0.25rem;
   }
   .g-xl-3,
   .gx-xl-3 {
@@ -1550,7 +1550,7 @@ progress {
   }
   .g-xl-3,
   .gy-xl-3 {
-    --bs-gutter-y: 1rem;
+    --bs-gutter-y: 0.5rem;
   }
   .g-xl-4,
   .gx-xl-4 {
@@ -1558,7 +1558,7 @@ progress {
   }
   .g-xl-4,
   .gy-xl-4 {
-    --bs-gutter-y: 1.5rem;
+    --bs-gutter-y: 0.75rem;
   }
   .g-xl-5,
   .gx-xl-5 {
@@ -1566,7 +1566,7 @@ progress {
   }
   .g-xl-5,
   .gy-xl-5 {
-    --bs-gutter-y: 3rem;
+    --bs-gutter-y: 2rem;
   }
 }
 @media (min-width: 1400px) {
@@ -1703,7 +1703,7 @@ progress {
   }
   .g-xxl-1,
   .gy-xxl-1 {
-    --bs-gutter-y: 0.25rem;
+    --bs-gutter-y: 0.15rem;
   }
   .g-xxl-2,
   .gx-xxl-2 {
@@ -1711,7 +1711,7 @@ progress {
   }
   .g-xxl-2,
   .gy-xxl-2 {
-    --bs-gutter-y: 0.5rem;
+    --bs-gutter-y: 0.25rem;
   }
   .g-xxl-3,
   .gx-xxl-3 {
@@ -1719,7 +1719,7 @@ progress {
   }
   .g-xxl-3,
   .gy-xxl-3 {
-    --bs-gutter-y: 1rem;
+    --bs-gutter-y: 0.5rem;
   }
   .g-xxl-4,
   .gx-xxl-4 {
@@ -1727,7 +1727,7 @@ progress {
   }
   .g-xxl-4,
   .gy-xxl-4 {
-    --bs-gutter-y: 1.5rem;
+    --bs-gutter-y: 0.75rem;
   }
   .g-xxl-5,
   .gx-xxl-5 {
@@ -1735,7 +1735,7 @@ progress {
   }
   .g-xxl-5,
   .gy-xxl-5 {
-    --bs-gutter-y: 3rem;
+    --bs-gutter-y: 2rem;
   }
 }
 .table {
