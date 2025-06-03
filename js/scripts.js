@@ -78,15 +78,4 @@ window.addEventListener('DOMContentLoaded', event => {
       carouselInstance._config.interval = getRandomInterval();
     });
   });
-  // Hacer clic en imagen -> mostrar modal con imagen ampliada
-  document.querySelectorAll('.carousel-img').forEach((img) => {
-    img.style.cursor = 'zoom-in'; // opcional: icono de zoom
 
-    img.addEventListener('click', () => {
-      const modalImg = document.getElementById('modalImage');
-      modalImg.src = img.src;
-
-      const imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
-      imageModal.show();
-    });
-  });
