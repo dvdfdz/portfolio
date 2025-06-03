@@ -58,13 +58,13 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 ('.carousel').carousel()
-  /*// Función para obtener intervalo aleatorio
+  // Función para obtener intervalo aleatorio
   function getRandomInterval(min = 4000, max = 7000) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
   // Seleccionar todos los carruseles con clase .my-carousel
-  document.querySelectorAll('.my-carousel').forEach((carouselEl) => {
+  document.querySelectorAll('.carousel slide').forEach((carouselEl) => {
     const interval = getRandomInterval();
 
     // Crear la instancia del carrusel con intervalo aleatorio
