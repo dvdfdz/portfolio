@@ -60,4 +60,11 @@ window.addEventListener('DOMContentLoaded', event => {
 
 ('.carousel').carousel({
   interval: interval: getRandomInterval(4000, 7000)
+   pause: false
+  });
+  carousel.addEventListener('mouseenter', () => {
+    carouselInstance.pause();
+  });
+  carousel.addEventListener('mouseleave', () => {
+    carouselInstance.cycle();
 })
