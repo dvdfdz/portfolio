@@ -73,17 +73,6 @@ window.addEventListener('DOMContentLoaded', event => {
       ride: 'carousel',
       pause: false
     });
-
-    // Pausar en hover
-    carouselEl.addEventListener('mouseenter', () => {
-      carouselInstance.pause();
-    });
-
-    // Reanudar al salir del hover
-    carouselEl.addEventListener('mouseleave', () => {
-      carouselInstance.cycle();
-    });
-
     // Cambiar el intervalo cada vez que cambia el slide
     carouselEl.addEventListener('slide.bs.carousel', () => {
       carouselInstance._config.interval = getRandomInterval();
