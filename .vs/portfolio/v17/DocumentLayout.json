@@ -22,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,10 +32,14 @@
               "RelativeDocumentMoniker": "css\\styles.css",
               "ToolTip": "C:\\Users\\Z\\Documents\\GitHub\\portfolio\\css\\styles.css",
               "RelativeToolTip": "css\\styles.css",
-              "ViewState": "AgIAADEeAAAAAAAAAAAlwEceAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAF4FAAAAAAAAAAAlwHcFAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-06-03T15:27:26.772Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\Z\\Documents\\GitHub\\portfolio\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-06-03T06:18:32.24Z",
               "EditorCaption": ""
