@@ -57,6 +57,20 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+const sizeClasses = ['tag-small', 'tag-medium', 'tag-large', 'tag-xlarge'];
+    const colorClasses = ['tag-1', 'tag-2', 'tag-3', 'tag-4', 'tag-5', 'tag-6', 'tag-7', 'tag-8', 'tag-9', 'tag-10'];
+    const tags = document.querySelectorAll('#tagCloud .tag');
+
+    tags.forEach(tag => {
+      const size = sizeClasses[Math.floor(Math.random() * sizeClasses.length)];
+      const color = colorClasses[Math.floor(Math.random() * colorClasses.length)];
+      tag.classList.add(size, color);
+    });
+
+
+
+
 /*$('.carousel').carousel()
   // Función para obtener intervalo aleatorio
   function getRandomInterval(min = 4000, max = 7000) {
