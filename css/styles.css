@@ -10999,85 +10999,91 @@ header.masthead h1, header.masthead .h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-    max-width: 700px;
+    gap: 12px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+    padding: 2rem 1rem;
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 .tag {
+    --color: #3498db; /* valor por defecto */
+    background-color: var(--color);
+    color: #fff;
     text-decoration: none;
-    color: white;
-    padding: 6px 12px;
-    border-radius: 20px;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 0.5em 1em;
+    border-radius: 2rem;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
     text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    align-content: center;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: clamp(0.75rem, 2vw, 1.25rem);
+    white-space: nowrap;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
     .tag:hover {
         transform: scale(1.1);
-        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        box-shadow: 0 5px 12px rgba(0,0,0,0.3);
     }
 
-/* Paleta de colores */
-.tag-1 {
-    background-color: #3498db;
-}
-/* Azul brillante */
-.tag-2 {
-    background-color: #2ecc71;
-}
-/* Verde esmeralda */
-.tag-3 {
-    background-color: #e74c3c;
-}
-/* Rojo coral */
-.tag-4 {
-    background-color: #f39c12;
-}
-/* Naranja */
-.tag-5 {
-    background-color: #9b59b6;
-}
-/* Púrpura */
-.tag-6 {
-    background-color: #1abc9c;
-}
-/* Turquesa */
-.tag-7 {
-    background-color: #34495e;
-}
-/* Azul marino */
-.tag-8 {
-    background-color: #d35400;
-}
-/* Naranja oscuro */
-.tag-9 {
-    background-color: #2980b9;
-}
-/* Azul océano */
-.tag-10 {
-    background-color: #8e44ad;
-}
-/* Morado */
-
-.tag-small {
-    font-size: 0.7rem;
+/* Colores temáticos reutilizables */
+.tag-color-1 {
+    --color: #3498db;
 }
 
-.tag-medium {
-    font-size: 0.9rem;
+.tag-color-2 {
+    --color: #2ecc71;
 }
 
-.tag-large {
-    font-size: 1.1rem;
+.tag-color-3 {
+    --color: #e74c3c;
 }
 
-.tag-xlarge {
-    font-size: 1.3rem;
+.tag-color-4 {
+    --color: #f39c12;
+}
+
+.tag-color-5 {
+    --color: #9b59b6;
+}
+
+.tag-color-6 {
+    --color: #1abc9c;
+}
+
+.tag-color-7 {
+    --color: #34495e;
+}
+
+.tag-color-8 {
+    --color: #d35400;
+}
+
+.tag-color-9 {
+    --color: #2980b9;
+}
+
+.tag-color-10 {
+    --color: #8e44ad;
+}
+
+/* Tamaños de etiquetas */
+.tag-size-small {
+    font-size: 0.75rem;
+}
+
+.tag-size-medium {
+    font-size: 0.95rem;
+}
+
+.tag-size-large {
+    font-size: 1.15rem;
+}
+
+.tag-size-xlarge {
+    font-size: 1.35rem;
 }
