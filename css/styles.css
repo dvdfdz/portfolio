@@ -11009,15 +11009,15 @@ header.masthead h1, header.masthead .h1 {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 10px 20px;
+    padding: 6px 12px;
     border-radius: 30px;
     font-weight: 600;
     letter-spacing: 0.5px;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     animation: float 4s ease-in-out infinite;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
     white-space: nowrap;
+    align-content: center;
 }
 
     .tag:hover {
