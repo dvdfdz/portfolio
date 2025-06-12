@@ -10994,3 +10994,90 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+.tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tag {
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    align-content: center;
+}
+
+    .tag:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+/* Paleta de colores */
+.tag-1 {
+    background-color: #3498db;
+}
+/* Azul brillante */
+.tag-2 {
+    background-color: #2ecc71;
+}
+/* Verde esmeralda */
+.tag-3 {
+    background-color: #e74c3c;
+}
+/* Rojo coral */
+.tag-4 {
+    background-color: #f39c12;
+}
+/* Naranja */
+.tag-5 {
+    background-color: #9b59b6;
+}
+/* Púrpura */
+.tag-6 {
+    background-color: #1abc9c;
+}
+/* Turquesa */
+.tag-7 {
+    background-color: #34495e;
+}
+/* Azul marino */
+.tag-8 {
+    background-color: #d35400;
+}
+/* Naranja oscuro */
+.tag-9 {
+    background-color: #2980b9;
+}
+/* Azul océano */
+.tag-10 {
+    background-color: #8e44ad;
+}
+/* Morado */
+
+.tag-small {
+    font-size: 0.7rem;
+}
+
+.tag-medium {
+    font-size: 0.9rem;
+}
+
+.tag-large {
+    font-size: 1.1rem;
+}
+
+.tag-xlarge {
+    font-size: 1.3rem;
+}
