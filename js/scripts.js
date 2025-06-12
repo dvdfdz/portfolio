@@ -55,8 +55,6 @@ window.addEventListener('DOMContentLoaded', event => {
     new SimpleLightbox({
         elements: '#portfolio a.portfolio-box'
     });
-
-
 /*$('.carousel').carousel()
   // Función para obtener intervalo aleatorio
   function getRandomInterval(min = 4000, max = 7000) {
