@@ -11066,4 +11066,43 @@ header.masthead h1, header.masthead .h1 {
         transform: translateY(-4px);
     }
 }
+.tag-1 {
+    background-color: #ff6f61;
+}
+
+.tag-2 {
+    background-color: #6b5b95;
+}
+
+.tag-3 {
+    background-color: #88b04b;
+}
+
+.tag-4 {
+    background-color: #f7cac9;
+}
+
+.tag-5 {
+    background-color: #92a8d1;
+}
+
+.tag-6 {
+    background-color: #955251;
+}
+
+.tag-7 {
+    background-color: #45b8ac;
+}
+
+.tag-8 {
+    background-color: #dd4124;
+}
+
+.tag-9 {
+    background-color: #d65076;
+}
+
+.tag-10 {
+    background-color: #b565a7;
+}
 
