@@ -56,43 +56,6 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 
-const tags = [
-    { name: "HTML", count: 10 },
-    { name: "CSS", count: 25 },
-    { name: "JavaScript", count: 40 },
-    { name: "React", count: 18 },
-    { name: "Node.js", count: 30 },
-    { name: "Python", count: 50 },
-    { name: "PHP", count: 12 },
-    { name: "Django", count: 22 },
-    { name: "Vue", count: 15 },
-    { name: "SQL", count: 35 }
-  ];
-
-  const container = document.querySelector('.tag-cloud');
-
-  // Obtener los valores mínimo y máximo
-  const counts = tags.map(tag => tag.count);
-  const min = Math.min(...counts);
-  const max = Math.max(...counts);
-
-  // Función para mapear popularidad a tamaño
-  function getSizeClass(count) {
-    const percent = (count - min) / (max - min);
-    if (percent > 0.75) return 'tag-size-xlarge';
-    if (percent > 0.5) return 'tag-size-large';
-    if (percent > 0.25) return 'tag-size-medium';
-    return 'tag-size-small';
-  }
-
-  // Generar las etiquetas
-  tags.forEach((tag, i) => {
-    const a = document.createElement('a');
-    a.textContent = tag.name;
-    a.href = "#";
-    a.className = `tag tag-color-${(i % 10) + 1} ${getSizeClass(tag.count)}`;
-    container.appendChild(a);
-  });
 
 /*$('.carousel').carousel()
   // Función para obtener intervalo aleatorio

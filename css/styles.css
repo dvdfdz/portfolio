@@ -10998,93 +10998,72 @@ header.masthead h1, header.masthead .h1 {
 .tag-cloud {
     display: flex;
     flex-wrap: wrap;
+    gap: 14px;
     justify-content: center;
-    gap: 12px;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 40px;
+    max-width: 900px;
+    animation: fadeIn 1.2s ease-out;
 }
 
 .tag {
-    --color: #3498db; /* valor por defecto */
-    background-color: var(--color);
-    color: #fff;
+    display: inline-block;
     text-decoration: none;
-    padding: 0.5em 1em;
-    border-radius: 2rem;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
     font-weight: 600;
-    letter-spacing: 0.6px;
-    font-size: clamp(0.75rem, 2vw, 1.25rem);
+    letter-spacing: 0.5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    animation: float 4s ease-in-out infinite;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
     white-space: nowrap;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
 }
 
     .tag:hover {
-        transform: scale(1.1);
-        box-shadow: 0 5px 12px rgba(0,0,0,0.3);
+        transform: translateY(-6px) scale(1.08);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.25);
     }
 
-/* Colores temáticos reutilizables */
-.tag-color-1 {
-    --color: #3498db;
+/* Tamaños para jerarquía visual */
+.tag-small {
+    font-size: 0.8rem;
+    opacity: 0.85;
 }
 
-.tag-color-2 {
-    --color: #2ecc71;
+.tag-medium {
+    font-size: 1rem;
 }
 
-.tag-color-3 {
-    --color: #e74c3c;
+.tag-large {
+    font-size: 1.2rem;
 }
 
-.tag-color-4 {
-    --color: #f39c12;
+.tag-xlarge {
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
-.tag-color-5 {
-    --color: #9b59b6;
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-.tag-color-6 {
-    --color: #1abc9c;
-}
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
 
-.tag-color-7 {
-    --color: #34495e;
-}
-
-.tag-color-8 {
-    --color: #d35400;
-}
-
-.tag-color-9 {
-    --color: #2980b9;
-}
-
-.tag-color-10 {
-    --color: #8e44ad;
-}
-
-/* Tamaños de etiquetas */
-.tag-size-small {
-    font-size: 0.75rem;
-}
-
-.tag-size-medium {
-    font-size: 0.95rem;
-}
-
-.tag-size-large {
-    font-size: 1.15rem;
-}
-
-.tag-size-xlarge {
-    font-size: 1.35rem;
+    50% {
+        transform: translateY(-4px);
+    }
 }
 
