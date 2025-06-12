@@ -10998,11 +10998,12 @@ header.masthead h1, header.masthead .h1 {
 .tag-cloud {
     display: flex;
     flex-wrap: wrap;
-    gap: 14px;
     justify-content: center;
-    padding: 40px;
-    max-width: 900px;
-    animation: fadeIn 1.2s ease-out;
+    gap: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
 }
 
 .tag {
@@ -11019,27 +11020,66 @@ header.masthead h1, header.masthead .h1 {
 }
 
     .tag:hover {
-        transform: translateY(-6px) scale(1.08);
-        box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     }
 
-/* Tamaños para jerarquía visual */
+/* Paleta de colores */
+.tag-1 {
+    background-color: #3498db;
+}
+/* Azul brillante */
+.tag-2 {
+    background-color: #2ecc71;
+}
+/* Verde esmeralda */
+.tag-3 {
+    background-color: #e74c3c;
+}
+/* Rojo coral */
+.tag-4 {
+    background-color: #f39c12;
+}
+/* Naranja */
+.tag-5 {
+    background-color: #9b59b6;
+}
+/* Púrpura */
+.tag-6 {
+    background-color: #1abc9c;
+}
+/* Turquesa */
+.tag-7 {
+    background-color: #34495e;
+}
+/* Azul marino */
+.tag-8 {
+    background-color: #d35400;
+}
+/* Naranja oscuro */
+.tag-9 {
+    background-color: #2980b9;
+}
+/* Azul océano */
+.tag-10 {
+    background-color: #8e44ad;
+}
+/* Morado */
+
 .tag-small {
-    font-size: 0.8rem;
-    opacity: 0.85;
+    font-size: 0.7rem;
 }
 
 .tag-medium {
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .tag-large {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .tag-xlarge {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.3rem;
 }
 
 /* Animaciones */
@@ -11063,44 +11103,5 @@ header.masthead h1, header.masthead .h1 {
     50% {
         transform: translateY(-4px);
     }
-}
-.tag-1 {
-    background-color: #ff6f61;
-}
-
-.tag-2 {
-    background-color: #6b5b95;
-}
-
-.tag-3 {
-    background-color: #88b04b;
-}
-
-.tag-4 {
-    background-color: #f7cac9;
-}
-
-.tag-5 {
-    background-color: #92a8d1;
-}
-
-.tag-6 {
-    background-color: #955251;
-}
-
-.tag-7 {
-    background-color: #45b8ac;
-}
-
-.tag-8 {
-    background-color: #dd4124;
-}
-
-.tag-9 {
-    background-color: #d65076;
-}
-
-.tag-10 {
-    background-color: #b565a7;
 }
 
