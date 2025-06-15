@@ -56,7 +56,7 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 
-});
+
 
 
 ('.carousel').carousel()
@@ -80,6 +80,14 @@ window.addEventListener('DOMContentLoaded', event => {
       carouselInstance._config.interval = getRandomInterval();
     });
   });
+
+
+
+
+});
+
+
+
 
 
 
