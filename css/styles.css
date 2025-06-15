@@ -11066,7 +11066,7 @@ header.masthead h1, header.masthead .h1 {
 /* Morado */
 
 .tag-small {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
 }
 
 .tag-medium {
@@ -11074,9 +11074,9 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .tag-large {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .tag-xlarge {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
