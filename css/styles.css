@@ -11023,44 +11023,45 @@ header.masthead h1, header.masthead .h1 {
         box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     }
 
+/* Paleta de colores fríos profesionales */
 .tag-1 {
-    background-color: #5C7CFA;
+    background-color: #3B82F6; /* Azul eléctrico (color primario) */
 }
 
 .tag-2 {
-    background-color: #51CF66;
+    background-color: #10B8B5; /* Verde azulado/verde agua */
 }
 
 .tag-3 {
-    background-color: #FF6B6B;
+    background-color: #6366F1; /* Índigo suave */
 }
 
 .tag-4 {
-    background-color: #FF922B;
+    background-color: #60A5FA; /* Azul cielo claro */
 }
 
 .tag-5 {
-    background-color: #B197FC;
+    background-color: #8B5CF6; /* Violeta digital */
 }
 
 .tag-6 {
-    background-color: #22B8CF;
+    background-color: #06B6D4; /* Cian vibrante */
 }
 
 .tag-7 {
-    background-color: #495057;
+    background-color: #334155; /* Gris azulado oscuro (neutral) */
 }
 
 .tag-8 {
-    background-color: #F76707;
+    background-color: #818CF8; /* Azul lavanda */
 }
 
 .tag-9 {
-    background-color: #339AF0;
+    background-color: #0EA5E9; /* Azul brillante */
 }
 
 .tag-10 {
-    background-color: #CC5DE8;
+    background-color: #A78BFA; /* Lila suave */
 }
 
 .tag-small {
