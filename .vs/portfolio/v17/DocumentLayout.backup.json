@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\Z\\Documents\\GitHub\\portfolio\\css\\styles.css",
-              "RelativeDocumentMoniker": "css\\styles.css",
-              "ToolTip": "C:\\Users\\Z\\Documents\\GitHub\\portfolio\\css\\styles.css",
-              "RelativeToolTip": "css\\styles.css",
-              "ViewState": "AgIAAO8qAAAAAAAAAAAcwPkqAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-15T16:23:56.726Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -41,9 +28,22 @@
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\Z\\Documents\\GitHub\\portfolio\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAHIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-06-15T16:23:50.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Z\\Documents\\GitHub\\portfolio\\css\\styles.css",
+              "RelativeDocumentMoniker": "css\\styles.css",
+              "ToolTip": "C:\\Users\\Z\\Documents\\GitHub\\portfolio\\css\\styles.css",
+              "RelativeToolTip": "css\\styles.css",
+              "ViewState": "AgIAAA0rAAAAAAAAAAAcwDwrAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-15T16:23:56.726Z",
               "EditorCaption": ""
             }
           ]
