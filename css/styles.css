@@ -11023,47 +11023,46 @@ header.masthead h1, header.masthead .h1 {
         box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     }
 
-/* Paleta de colores */
+/* Paleta de colores profesional - Versión moderna y sofisticada */
 .tag-1 {
-    background-color: #3498db;
+    background-color: #3B82F6; /* Azul vibrante */
 }
-/* Azul brillante */
+
 .tag-2 {
-    background-color: #2ecc71;
+    background-color: #10B981; /* Verde fresco */
 }
-/* Verde esmeralda */
+
 .tag-3 {
-    background-color: #e74c3c;
+    background-color: #EF4444; /* Rojo intenso */
 }
-/* Rojo coral */
+
 .tag-4 {
-    background-color: #f39c12;
+    background-color: #F59E0B; /* Ámbar cálido */
 }
-/* Naranja */
+
 .tag-5 {
-    background-color: #9b59b6;
+    background-color: #8B5CF6; /* Violeta suave */
 }
-/* Púrpura */
+
 .tag-6 {
-    background-color: #1abc9c;
+    background-color: #06B6D4; /* Cian brillante */
 }
-/* Turquesa */
+
 .tag-7 {
-    background-color: #34495e;
+    background-color: #1E293B; /* Azul oscuro profundo */
 }
-/* Azul marino */
+
 .tag-8 {
-    background-color: #d35400;
+    background-color: #EA580C; /* Naranja intenso */
 }
-/* Naranja oscuro */
+
 .tag-9 {
-    background-color: #2980b9;
+    background-color: #2563EB; /* Azul saturado */
 }
-/* Azul océano */
+
 .tag-10 {
-    background-color: #8e44ad;
+    background-color: #7C3AED; /* Púrpura intenso */
 }
-/* Morado */
 
 .tag-small {
     font-size: 0.6rem;
