@@ -59,7 +59,7 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 
-/*$('.carousel').carousel()
+*$('.carousel').carousel()
   // Función para obtener intervalo aleatorio
   function getRandomInterval(min = 4000, max = 7000) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
