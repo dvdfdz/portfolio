@@ -10998,10 +10998,10 @@ header.masthead h1, header.masthead .h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     font-family: Arial, sans-serif;
 }
 
@@ -11066,7 +11066,7 @@ header.masthead h1, header.masthead .h1 {
 /* Morado */
 
 .tag-small {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
 }
 
 .tag-medium {
@@ -11074,9 +11074,9 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .tag-large {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .tag-xlarge {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
