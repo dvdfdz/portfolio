@@ -5,7 +5,7 @@
 */
 //
 // Scripts
-// 
+//
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
-    // Shrink the navbar 
+    // Shrink the navbar
     navbarShrink();
 
     // Shrink the navbar when page is scrolled
@@ -56,38 +56,25 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 
+    // FunciÃ³n para obtener intervalo aleatorio
+    function getRandomInterval(min = 4000, max = 7000) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
 
+    // Seleccionar todos los carruseles con clase .carousel.slide
+    document.querySelectorAll('.carousel.slide').forEach((carouselEl) => {
+        const interval = getRandomInterval();
 
-
-('.carousel').carousel()
-  // Función para obtener intervalo aleatorio
-  function getRandomInterval(min = 4000, max = 7000) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
-
-  // Seleccionar todos los carruseles con clase .my-carousel
-  document.querySelectorAll('.carousel slide').forEach((carouselEl) => {
-    const interval = getRandomInterval();
-
-    // Crear la instancia del carrusel con intervalo aleatorio
-    const carouselInstance = new bootstrap.Carousel(carouselEl, {
-      interval: interval,
-      ride: 'carousel',
-      pause: false
+        // Crear la instancia del carrusel con intervalo aleatorio
+        const carouselInstance = new bootstrap.Carousel(carouselEl, {
+            interval: interval,
+            ride: 'carousel',
+            pause: false
+        });
+        // Cambiar el intervalo cada vez que cambia el slide
+        carouselEl.addEventListener('slide.bs.carousel', () => {
+            carouselInstance._config.interval = getRandomInterval();
+        });
     });
-    // Cambiar el intervalo cada vez que cambia el slide
-    carouselEl.addEventListener('slide.bs.carousel', () => {
-      carouselInstance._config.interval = getRandomInterval();
-    });
-  });
-
-
-
 
 });
-
-
-
-
-
-
